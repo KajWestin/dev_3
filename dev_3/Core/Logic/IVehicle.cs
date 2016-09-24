@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Logic
 {
-    interface IVehicle
+    public interface IVehicle
     {
         int GetSpeed();
         void IncreaseSpeed(int amount);
